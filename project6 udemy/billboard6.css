@@ -1,0 +1,107 @@
+@import url(navbar6.css);
+:root{
+    --mainfont: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    --font2:'Udemy Sans','SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+.billboard{
+    margin: 10%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.billboard__img{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+.billboard .billboard__description{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 25vw;
+    height: 17vh;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    left: 10%;
+    margin: 5%;
+}
+.billboard .billboard__h2{
+    font-size: 27px;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 2px;
+    font-weight: 700;
+}
+.billboard__description .billboard__p{
+    margin-top: 0px;
+    letter-spacing: 0.002px;
+    font-size: 16px;
+    font-family: var(--mainfont)
+}
+.bill2{
+    width: 100vw;
+    height: 30vh;
+    background-color:#f7f9fa;
+}
+.bill2__h2{
+    color: #6a6f73;
+    text-align: center;
+    font-family: var(--font2);
+    font-size: 19px;
+    font-weight: 400;
+    background-color:#f7f9fa;
+    padding: 44px;
+    padding-bottom: 0;
+}
+.bill2__list--ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.bill2__list--ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 33px;
+    padding: 22px;
+    height: 10px;
+}
+.bill2__list--ul li img{
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*this part is for mobile view*/
+.billboard__mbl{
+    width: 100vw;
+    display: none;
+}
+.billboard__img--mbl{
+width: 100vw;
+height: 50vh;
+}
+.billboard__h2--mbl{
+    font-size: 27px;
+    font-family: 'Libre Baskerville', serif;
+}
+.billboard__p--mbl{
+    letter-spacing: 0.002px;
+    font-size: 16px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.billboard__srch--mbl{
+    width: 75vw;
+    padding: 2vw;
+    margin: 5vw;
+}
+@media screen and (max-width:700px) {
+    .billboard{
+        display: none;
+    }
+    .billboard__mbl{
+        display: block;
+    }
+}

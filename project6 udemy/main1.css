@@ -1,0 +1,179 @@
+:root{
+    --heading:SuisseWorks,Georgia,Times,'Times New Roman',serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    --font2:'Udemy Sans','SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    --heading2:'Udemy Sans',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+
+}
+.headline__h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--heading);
+    color: rgb(45, 47, 49);
+    margin: 50px 0px 0px 60px;
+    padding: 40px;
+}
+.headline__p{
+    margin: 0px 0px 20px 100px;
+    font-family: var(--font2);
+}
+.tabs{
+    margin-left: 50px;
+    width: 90vw;
+}
+.tabs__ul{
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    color: #6a6f73;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--heading2);
+}
+.tabs__ul li{
+    display: flex;
+    flex-grow: 0.5;
+    justify-content: center;
+}
+.tabs__ul li:hover{
+    color: black;
+}
+.tabs__banner{
+    border: 1px solid #d1d7dc;
+    margin: 0px 50px;
+    padding: 30px;
+}
+.tabs__banner--h2{
+    font-family: var(--heading2);
+    color: rgb(45, 47, 49);
+}
+.tabs__banner--p{
+    width: 50vw;
+    font-family: var(--font2);
+}
+.tabs__banner--button{
+    background-color: white;
+    padding: 10px;
+    border: 0.8px solid rgb(45, 47, 49);
+    font-family: var(--heading2);
+    text-align: center;
+}
+.tabs__banner--button:hover{
+    background-color: rgba(23,57,83,.12);
+}
+.tabs__banner--ul{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 0;
+    overflow: hidden;
+}
+.tabs__banner--ul li{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    list-style-type: none;
+}
+.tabs__banner--ul li img{
+    width: 220px;
+    height: 120px;
+    border: 1px solid rgb(45, 47, 49);
+}
+.tabs__banner--ul h4{
+    width: 200px;
+    height: 45px;
+    color:#2d2f31;
+    font-family: var(--heading2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tabs__banner--ul span{
+    color:#2d2f31;
+    font-family: var(--heading2);
+    font-size: 13px;
+}
+.tabs__banner--ul section{
+    font-family: var(--heading2);
+    font-weight: 700;
+}
+.advbar{
+     width: 100vw;
+     background-color: rgb(247, 249, 250);
+}
+.advbar__ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 87px 0 81px 0;
+}
+.advbar__ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+.advbar__ul li img{
+    width: 50px;
+    padding: 0px 0px 0px 80px;
+}
+.advbar__ul li p{
+    width: 280px;
+    margin: 10px 0px 10px -25px;
+    font-family: var(--heading2);
+    font-weight: 600;
+}
+.heading__tabs2{
+    padding: 0 100px;
+    margin: 0;
+    font-family: var(--heading2);
+    font-weight: 700;
+}
+.tabs2{
+    margin-left: 50px;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+}
+.tabs2__ul{
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    color: #6a6f73;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--heading2);
+}
+.tabs2__ul li{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    list-style-type: none;
+    margin: 1vw;
+}
+.tabs2__ul li img{
+    width: 230px;
+    height: 130px;
+    border: 1px solid #6a6f73;
+    display: flex;
+}
+.tabs2__ul li h4{
+    width: 200px;
+    height: 45px;
+    color:#2d2f31;
+    font-family: var(--heading2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tabs2__ul li span{
+    color:#2d2f31;
+    font-family: var(--heading2);
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tabs2__ul section{
+    font-family: var(--heading2);
+    font-weight: 700;
+}
